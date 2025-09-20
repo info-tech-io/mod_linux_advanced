@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "name": "linux-advanced",
+  "title": "Продвинутый Linux",
+  "description": "Администрирование и продвинутые возможности Linux. Курс для системных администраторов и DevOps инженеров.",
+  "version": "1.0.0",
+  "type": "educational",
+
+  "deployment": {
+    "subdomain": "linux-advanced",
+    "repository": "mod_linux_advanced",
+    "build_system": "hugo-base"
+  },
+
+  "hugo_config": {
+    "template": "default",
+    "theme": "compose",
+    "components": ["quiz-engine"],
+    "hugo_version": "0.148.0"
+  },
+
+  "metadata": {
+    "author": "InfoTech.io Team",
+    "maintainer": "info-tech-io",
+    "license": "MIT",
+    "difficulty": "intermediate",
+    "estimated_time": "60 hours",
+    "language": "ru",
+    "tags": ["linux", "system-administration", "devops", "networking", "advanced"]
+  },
+
+  "urls": {
+    "production": "https://linux-advanced.infotecha.ru",
+    "repository": "https://github.com/info-tech-io/mod_linux_advanced",
+    "issues": "https://github.com/info-tech-io/mod_linux_advanced/issues"
+  },
+
+  "status": {
+    "lifecycle": "stable",
+    "last_updated": "2025-09-20",
+    "content_complete": true,
+    "testing_complete": true,
+    "review_complete": true
+  }
+}
