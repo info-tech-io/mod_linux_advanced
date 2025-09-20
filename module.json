@@ -9,7 +9,7 @@
   "deployment": {
     "subdomain": "linux-advanced",
     "repository": "mod_linux_advanced",
-    "build_system": "hugo-base"
+    "build_system": "hugo-templates"
   },
 
   "hugo_config": {
